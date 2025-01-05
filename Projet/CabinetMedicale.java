@@ -51,7 +51,7 @@ public class CabinetMedicale {
             System.out.println("Patient ajouté avec succès !");
             System.out.println("------------------------------------------------");
 
-            // Associer le patient au médecin pour un rendez-vous
+            // debut du rendez-vous
             System.out.println("Prenons un rendez-vous pour le patient avec le médecin.");
             System.out.println("Médecin disponible : " + medecin.getNom() + " " + medecin.getPrenom());
             System.out.print("Entrez la date et l'heure du rendez-vous (format: yyyy-MM-dd HH:mm) : ");
